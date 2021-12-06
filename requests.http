@@ -1,0 +1,27 @@
+### GET CHAMPION
+
+GET localhost:8080/api/champions
+
+### CREATE CHAMPION
+
+POST localhost:8080/api/champions
+Content-Type: application/json
+
+{
+  "name": "xerath",
+  "role": "mage",
+  "difficulty": "hard"
+}
+
+### UPDATE CHAMPION
+
+PATCH localhost:8080/api/champions/xerath
+Content-Type: application/json
+
+{
+  "abilities": ["ray"]
+}
+
+### DELETE CHAMPION
+
+DELETE localhost:8080/api/champions/xerath
