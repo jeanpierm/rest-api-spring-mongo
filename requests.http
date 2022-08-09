@@ -1,10 +1,10 @@
 ### GET CHAMPION
 
-GET localhost:8080/api/champions
+GET localhost:8080/api/warframes
 
 ### CREATE CHAMPION
 
-POST localhost:8080/api/champions
+POST localhost:8080/api/warframes
 Content-Type: application/json
 
 {
@@ -15,7 +15,7 @@ Content-Type: application/json
 
 ### UPDATE CHAMPION
 
-PATCH localhost:8080/api/champions/xerath
+PATCH localhost:8080/api/warframes/xerath
 Content-Type: application/json
 
 {
@@ -24,4 +24,4 @@ Content-Type: application/json
 
 ### DELETE CHAMPION
 
-DELETE localhost:8080/api/champions/xerath
+DELETE localhost:8080/api/warframes/xerath

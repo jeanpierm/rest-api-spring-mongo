@@ -1,4 +1,4 @@
-package com.jm.demo.champion;
+package com.jm.demo.warframes;
 
 public enum Role {
     fighter("Fighter"),
